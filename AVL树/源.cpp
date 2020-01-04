@@ -24,6 +24,5 @@ int main() {
 			break;
 	}
 	origin.print_all();
-	system("pause");
-	origin.~AVLTree();
+	return 0;
 }
