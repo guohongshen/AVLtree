@@ -1,11 +1,11 @@
 #include"AVL.h"
-
+//ÂêåÊ≠•ÊµãËØï
 int accept;
 AVLTree origin;
 
 int main() {
 	while (1) {
-		cout << "«Î ‰»Î–Ë“™≤Â»Îµƒ ˝◊÷£® ‰»Î-1¿¥Ω· ¯≤Â»Î£©£∫" << endl;
+		cout << "ËØ∑ËæìÂÖ•ÈúÄË¶ÅÊèíÂÖ•ÁöÑÊï∞Â≠óÔºàËæìÂÖ•-1Êù•ÁªìÊùüÊèíÂÖ•ÔºâÔºö" << endl;
 		cin >> accept;
 		if (accept != -1) {
 			origin.Insert_all(accept);
@@ -16,7 +16,7 @@ int main() {
 	}
 	origin.print_all();
 	while (1) {
-		cout << endl << "«Î ‰»Î“™…æ≥˝µƒ ˝◊÷£®»Áπ˚≤È—Ø≤ªµΩ∂‘”¶µƒΩ·µ„æÕª·ÕÀ≥ˆ£©:" << endl;
+		cout << endl << "ËØ∑ËæìÂÖ•Ë¶ÅÂà†Èô§ÁöÑÊï∞Â≠óÔºàÂ¶ÇÊûúÊü•ËØ¢‰∏çÂà∞ÂØπÂ∫îÁöÑÁªìÁÇπÂ∞±‰ºöÈÄÄÂá∫Ôºâ:" << endl;
 		cin >> accept;
 		if (origin.Remove_all(accept))
 			origin.print_all();
