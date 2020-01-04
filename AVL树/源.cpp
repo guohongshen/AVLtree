@@ -1,5 +1,5 @@
 #include"AVL.h"
-//同步测试1
+//同步测试2
 int accept;
 AVLTree origin;
 
